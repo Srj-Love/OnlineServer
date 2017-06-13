@@ -32,7 +32,7 @@ public class BackgroundTask extends AsyncTask<String, Void, String> {
     protected String doInBackground(String... params) {
 
 
-        String reg_url = "https://srjlove.000webhostapp.com/add.php";
+        String reg_url = "https://your_site.com/add.php";
         String method = params[0];
 
         if (method.equals("register")) {
